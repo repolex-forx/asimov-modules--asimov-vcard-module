@@ -1,0 +1,16 @@
+[2026-09-28T07:20:48Z] === ENRICH ITERATION 1 START | repo=asimov-modules/asimov-vcard-module sha=f0ff0282 ===
+[2026-09-28T07:20:48Z] [iter=1] PHASE START: enrich repo=asimov-modules/asimov-vcard-module sha=f0ff0282 runlog=/home/runner/work/forx/forx/storage/aggregate/lsp/logs/f0ff0282-enrich-iter-001.log output=/home/runner/work/forx/forx/storage/aggregate/lsp/f0ff028289c5113a5b2adbe6249bb2b9426a20f5.nq.gz
+[2026-09-28T07:20:51Z] [iter=1] Step 1: Loading AST into disk-backed store mem_mb=79 MB
+[2026-09-28T07:20:52Z] [iter=1] AST store loaded triples=1557 load_secs=2 mem_mb=88 MB
+[2026-09-28T07:20:52Z] [iter=1] Step 2: Finding LSP targets mem_mb=88 MB
+[2026-09-28T07:20:52Z] [iter=1] LSP targets found call_sites=13 imports=3 extends=0 implements=0 secs=0
+[2026-09-28T07:20:52Z] [iter=1] Step 2.7: Building position index (one-shot, shared across resolvers) mem_mb=88 MB
+[2026-09-28T07:20:52Z] [iter=1] Position index built positions=110 nodes_with_types=132 secs=0 mem_mb=88 MB
+[2026-09-28T07:20:52Z] [iter=1] Step 3: Starting LSP resolution mem_mb=88 MB already_completed_types=[] already_completed_files=0
+[2026-09-28T07:20:52Z] [iter=1] Resolving target type target_type=call_site count=13
+[2026-09-28T07:21:15Z] [iter=1] Target type resolved target_type=call_site resolved=12 errors=0 secs=22 mem_mb=89 MB
+[2026-09-28T07:21:15Z] [iter=1] Resolving target type target_type=import_statement count=3
+[2026-09-28T07:21:21Z] [iter=1] Target type resolved target_type=import_statement resolved=3 errors=0 secs=6 mem_mb=89 MB
+[2026-09-28T07:21:27Z] [iter=1] Step 5: Writing final enrichment file triples=187
+[2026-09-28T07:21:27Z] [iter=1] Enrichment file written path=/home/runner/work/forx/forx/storage/aggregate/lsp/f0ff028289c5113a5b2adbe6249bb2b9426a20f5.nq.gz size_kb=2
+[2026-09-28T07:21:27Z] [iter=1] PHASE END: enrich elapsed_s=40 elapsed_min=0.7 total_triples=187
