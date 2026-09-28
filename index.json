@@ -1,0 +1,11 @@
+{
+  "org": "asimov-modules",
+  "repo": "asimov-vcard-module",
+  "versions": [
+    {
+      "commit": "f0ff028289c5113a5b2adbe6249bb2b9426a20f5",
+      "tag": "0.0.0",
+      "parsed_at": "2026-09-28T07:23:34.683785+00:00"
+    }
+  ]
+}
